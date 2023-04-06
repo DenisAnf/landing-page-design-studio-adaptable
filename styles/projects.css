@@ -1,0 +1,97 @@
+.projects__all {
+  display: block;
+  margin-bottom: 150px;
+  width: 100%;
+  border: 1px solid #AD1818;
+  border-radius: 5px;
+  font-size: 30px;
+  line-height: 151px;
+  text-align: center;
+  color: #AD1818;
+  transition: all 200ms linear;
+}
+.projects__all:visited {
+  color: #AD1818;
+}
+.projects__all:hover {
+  background-color: #AD1818;
+  color: #FFFFFF;
+  transition: all 100ms linear;
+}
+@media (max-width: 1199px) {
+  .projects__all {
+    margin-bottom: calcSize(103, 150, 960, 1200);
+  }
+}
+@media (max-width: 959px) {
+  .projects__all {
+    margin-bottom: calcSize(144, 103, 375, 960);
+    border-radius: calcSize(3.8, 5, 375, 960);
+    font-size: calcSize(22, 30, 375, 960);
+    line-height: calcSize(98, 151, 375, 960);
+  }
+}
+
+.project {
+  margin-bottom: 90px;
+}
+@media (max-width: 1199px) {
+  .project {
+    margin-bottom: calcSize(80, 90, 960, 1200);
+  }
+}
+@media (max-width: 959px) {
+  .project {
+    margin-bottom: calcSize(49, 80, 375, 960);
+  }
+}
+@media (max-width: 1199px) {
+  .project:last-child {
+    margin-bottom: calcSize(102, 90, 960, 1200);
+  }
+}
+@media (max-width: 959px) {
+  .project:last-child {
+    margin-bottom: calcSize(60, 102, 375, 960);
+  }
+}
+.project__image {
+  margin-bottom: 15px;
+  height: 450px;
+}
+@media (max-width: 959px) {
+  .project__image {
+    margin-bottom: calcSize(20, 15, 375, 960);
+    height: calcSize(250, 450, 375, 960);
+  }
+}
+.project__info {
+  margin-bottom: 15px;
+  font-size: 30px;
+  line-height: 41px;
+}
+@media (max-width: 1199px) {
+  .project__info {
+    margin-bottom: calcSize(10, 15, 960, 1200);
+    font-size: calcSize(25, 30, 960, 1200);
+    line-height: calcSize(34, 41, 960, 1200);
+  }
+}
+@media (max-width: 959px) {
+  .project__info {
+    margin-bottom: calcSize(11, 10, 375, 960);
+    font-size: calcSize(18, 25, 375, 960);
+    line-height: calcSize(25, 34, 375, 960);
+  }
+}
+.project__link {
+  font-size: 20px;
+  line-height: 27px;
+  color: #AD1818;
+}
+@media (max-width: 959px) {
+  .project__link {
+    font-size: calcSize(16, 20, 375, 960);
+    line-height: calcSize(22, 27, 375, 960);
+  }
+}

@@ -1,0 +1,63 @@
+@function calcSize($f-min, $f-max, $w-min, $w-max) {
+	$k: ($f-max - $f-min)/($w-max - $w-min);
+	$b: $f-min - $k * $w-min;
+
+	$b: $b * 1px;
+
+	@return calc(#{$k} * 100vw + #{$b});
+}
+
+body {
+	width: 100%;
+	color: #121212;
+	background-color: #FFFFFF;
+}
+
+.container {
+	max-width: 1180px;
+	padding: 0 15px;
+	margin: 0 auto;
+
+	@media (max-width: 767px) {
+		padding: 0 calcSize(12, 15, 375, 767);
+	}
+}
+
+img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	object-position: center;
+}
+
+a,
+li,
+h1,
+h2,
+h3,
+img,
+div,
+span,
+p {
+	letter-spacing: -0.03em;
+}
+
+.title {
+	margin-bottom: 30px;
+	padding-top: 150px;
+	font-size: 18px;
+	line-height: 25px;
+	text-transform: uppercase;
+
+	@media (max-width: 1199px) {
+		padding-top: calcSize(120, 150, 960, 1200);
+
+	}
+
+	@media (max-width: 959px) {
+		margin-bottom: calcSize(20, 30, 375, 960);
+		padding-top: calcSize(80, 120, 375, 960);
+		font-size: calcSize(14, 18, 375, 960);
+		line-height: calcSize(19, 25, 375, 960);
+	}
+}

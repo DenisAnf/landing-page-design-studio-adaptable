@@ -1,0 +1,111 @@
+.reviews {
+  margin-bottom: 156px;
+}
+@media (max-width: 1199px) {
+  .reviews {
+    margin-bottom: calcSize(120, 156, 960, 1200);
+  }
+}
+@media (max-width: 959px) {
+  .reviews {
+    margin-bottom: calcSize(80, 120, 375, 960);
+  }
+}
+.reviews__title {
+  margin-bottom: 31px;
+}
+@media (max-width: 1199px) {
+  .reviews__title {
+    padding-top: calcSize(117, 150, 960, 1200);
+    margin-bottom: 30;
+  }
+}
+@media (max-width: 959px) {
+  .reviews__title {
+    padding-top: calcSize(80, 117, 375, 960);
+    margin-bottom: calcSize(22, 30, 375, 960);
+  }
+}
+.reviews__card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 80px 54px;
+}
+@media (max-width: 1199px) {
+  .reviews__card {
+    gap: 78px 10px;
+  }
+}
+@media (max-width: 959px) {
+  .reviews__card {
+    gap: 77px 0;
+  }
+}
+
+.review {
+  flex: 0 1 calc(50% - 51px);
+}
+@media (max-width: 1199px) {
+  .review {
+    flex: 0 1 calc(50% - 5px);
+  }
+}
+@media (max-width: 959px) {
+  .review {
+    flex: 1 1 100%;
+  }
+}
+.review:last-child {
+  flex: 0 1 861px;
+}
+@media (max-width: 1199px) {
+  .review:last-child {
+    flex: 0 1 694px;
+  }
+}
+@media (max-width: 959px) {
+  .review:last-child {
+    flex: 1 1 100%;
+  }
+}
+.review__title {
+  display: block;
+  margin-bottom: 14px;
+  margin-left: -2px;
+  font-style: normal;
+  font-size: 45px;
+  line-height: 61px;
+  letter-spacing: -0.032em;
+}
+@media (max-width: 1199px) {
+  .review__title {
+    margin-bottom: calcSize(25, 14, 960, 1200);
+    font-size: calcSize(35, 45, 960, 1200);
+    line-height: calcSize(48, 61, 960, 1200);
+  }
+}
+@media (max-width: 959px) {
+  .review__title {
+    margin-bottom: calcSize(10, 25, 375, 960);
+    font-size: calcSize(25, 35, 375, 960);
+    line-height: calcSize(34, 48, 375, 960);
+  }
+}
+.review__description {
+  font-size: 22px;
+  line-height: 30px;
+  letter-spacing: -0.031em;
+}
+@media (max-width: 1199px) {
+  .review__description {
+    font-size: calcSize(20, 22, 960, 1200);
+    line-height: calcSize(27, 30, 960, 1200);
+  }
+}
+@media (max-width: 959px) {
+  .review__description {
+    font-size: calcSize(16, 20, 375, 960);
+    line-height: calcSize(22, 27, 375, 960);
+    letter-spacing: -0.03em;
+  }
+}

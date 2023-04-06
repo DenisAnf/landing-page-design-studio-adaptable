@@ -1,0 +1,42 @@
+.footer {
+	background-color: #121212;
+
+	&__menu {}
+
+	&__cr {
+		padding-bottom: 30px;
+		padding-left: 6px;
+		text-align: center;
+		font-size: 20px;
+		line-height: 27px;
+		color: #FFFFFF;
+		opacity: 0.5;
+	}
+}
+
+.menu-f {
+	padding-right: 11px;
+
+	&__list {
+		padding-top: 60px;
+		margin-bottom: 87px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		gap: 10px 55.5px;
+	}
+
+	&__list-item {
+		font-size: 18px;
+		line-height: 25px;
+		text-transform: uppercase;
+		color: #FFFFFF;
+		transition: all 200ms linear;
+
+		&:hover {
+			opacity: 0.5;
+			transition: all 100ms linear;
+		}
+	}
+}
