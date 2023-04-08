@@ -5,21 +5,21 @@
 }
 @media (max-width: 1199px) {
   .services {
-    padding-bottom: calcSize(120, 150, 960, 1200);
+    padding-bottom: 120px;
   }
 }
-@media (max-width: 959px) {
+@media (max-width: 767px) {
   .services {
-    padding-bottom: calcSize(80, 120, 375, 960);
+    padding-bottom: 80px;
   }
 }
 .services__title {
   padding-top: 151px;
   padding-left: 3px;
 }
-@media (max-width: 959px) {
+@media (max-width: 767px) {
   .services__title {
-    padding-top: calcSize(80, 151, 375, 960);
+    padding-top: 80px;
   }
 }
 .services__card {
@@ -30,19 +30,19 @@
 }
 @media (max-width: 1199px) {
   .services__card {
-    gap: calcSize(87, 85, 960, 1200) calcSize(10, 11, 960, 1200);
-    margin-bottom: calcSize(87, 57, 960, 1200);
-  }
-}
-@media (max-width: 959px) {
-  .services__card {
-    gap: calcSize(65, 87, 375, 960) 10px;
-    margin-bottom: calcSize(68, 87, 375, 960);
+    gap: 87px 10px;
+    margin-bottom: 87px;
   }
 }
 @media (max-width: 767px) {
   .services__card {
-    gap: calcSize(65, 80, 375, 960) 0;
+    gap: 65px 10px;
+    margin-bottom: 68px;
+  }
+}
+@media (max-width: 767px) {
+  .services__card {
+    gap: 65px 0;
   }
 }
 .services__btn {
@@ -57,11 +57,11 @@
   color: #FFFFFF;
   letter-spacing: -0.032em;
 }
-@media (max-width: 959px) {
+@media (max-width: 767px) {
   .services__btn {
-    border-radius: calcSize(3.8, 5, 375, 960);
-    font-size: calcSize(22, 30, 375, 960);
-    line-height: calcSize(100, 153, 375, 960);
+    border-radius: 3.8px;
+    font-size: 22px;
+    line-height: 100px;
   }
 }
 
@@ -80,14 +80,14 @@
 }
 @media (max-width: 1199px) {
   .service__image {
-    margin-bottom: calcSize(15, 25, 960, 1200);
-    height: calcSize(315, 389, 960, 1200);
+    margin-bottom: 15px;
+    height: 315px;
   }
 }
-@media (max-width: 959px) {
+@media (max-width: 767px) {
   .service__image {
-    margin-bottom: calcSize(10, 15, 375, 960);
-    height: calcSize(240, 315, 375, 960);
+    margin-bottom: 10px;
+    height: 240px;
   }
 }
 .service__image-l {
@@ -95,12 +95,12 @@
 }
 @media (max-width: 1199px) {
   .service__image-l {
-    margin-bottom: calcSize(15, 17, 960, 1200);
+    margin-bottom: 15px;
   }
 }
-@media (max-width: 959px) {
+@media (max-width: 767px) {
   .service__image-l {
-    margin-bottom: calcSize(10, 15, 375, 960);
+    margin-bottom: 10px;
   }
 }
 .service__price {
@@ -115,17 +115,17 @@
 }
 @media (max-width: 1199px) {
   .service__price {
-    padding: 0 calcSize(26, 21, 960, 1200);
-    font-size: calcSize(20, 22, 960, 1200);
+    padding: 0 26px;
+    font-size: 20px;
   }
 }
-@media (max-width: 959px) {
+@media (max-width: 767px) {
   .service__price {
-    top: calcSize(24, 32, 375, 960);
-    padding: 0 calcSize(24, 26, 375, 960);
-    border-radius: calcSize(3.8, 5, 375, 960);
-    font-size: calcSize(14, 20, 375, 960);
-    line-height: calcSize(30, 40, 375, 960);
+    top: 24px;
+    padding: 0 24px;
+    border-radius: 3.8px;
+    font-size: 14px;
+    line-height: 30px;
   }
 }
 .service__info {
@@ -136,13 +136,13 @@
 @media (max-width: 1199px) {
   .service__info {
     padding-left: 0;
-    font-size: calcSize(25, 30, 960, 1200);
-    line-height: calcSize(34, 41, 960, 1200);
+    font-size: 25px;
+    line-height: 34px;
   }
 }
-@media (max-width: 959px) {
+@media (max-width: 767px) {
   .service__info {
-    font-size: calcSize(18, 25, 375, 960);
-    line-height: calcSize(25, 34, 375, 960);
+    font-size: 18px;
+    line-height: 25px;
   }
 }

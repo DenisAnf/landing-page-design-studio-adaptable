@@ -27,14 +27,14 @@
 		}
 
 		@media (max-width: 1199px) {
-			margin-bottom: calcSize(103, 150, 960, 1200);
+			margin-bottom: 103px;
 		}
 
-		@media (max-width: 959px) {
-			margin-bottom: calcSize(144, 103, 375, 960);
-			border-radius: calcSize(3.8, 5, 375, 960);
-			font-size: calcSize(22, 30, 375, 960);
-			line-height: calcSize(98, 151, 375, 960);
+		@media (max-width: 767px) {
+			margin-bottom: 144px;
+			border-radius: 3.8px;
+			font-size: 22px;
+			line-height: 98px;
 		}
 	}
 }
@@ -43,20 +43,20 @@
 	margin-bottom: 90px;
 
 	@media (max-width: 1199px) {
-		margin-bottom: calcSize(80, 90, 960, 1200);
+		margin-bottom: 80px;
 	}
 
-	@media (max-width: 959px) {
-		margin-bottom: calcSize(49, 80, 375, 960);
+	@media (max-width: 767px) {
+		margin-bottom: 49px;
 	}
 
 	&:last-child {
 		@media (max-width: 1199px) {
-			margin-bottom: calcSize(102, 90, 960, 1200);
+			margin-bottom: 102px;
 		}
 
-		@media (max-width: 959px) {
-			margin-bottom: calcSize(60, 102, 375, 960);
+		@media (max-width: 767px) {
+			margin-bottom: 60px;
 		}
 	}
 
@@ -64,9 +64,9 @@
 		margin-bottom: 15px;
 		height: 450px;
 
-		@media (max-width: 959px) {
-			margin-bottom: calcSize(20, 15, 375, 960);
-			height: calcSize(250, 450, 375, 960);
+		@media (max-width: 767px) {
+			margin-bottom: 20px;
+			height: 250px;
 		}
 	}
 
@@ -76,15 +76,15 @@
 		line-height: 41px;
 
 		@media (max-width: 1199px) {
-			margin-bottom: calcSize(10, 15, 960, 1200);
-			font-size: calcSize(25, 30, 960, 1200);
-			line-height: calcSize(34, 41, 960, 1200);
+			margin-bottom: 10px;
+			font-size: 25px;
+			line-height: 34px;
 		}
 
-		@media (max-width: 959px) {
-			margin-bottom: calcSize(11, 10, 375, 960);
-			font-size: calcSize(18, 25, 375, 960);
-			line-height: calcSize(25, 34, 375, 960);
+		@media (max-width: 767px) {
+			margin-bottom: 11px;
+			font-size: 18px;
+			line-height: 25px;
 		}
 	}
 
@@ -93,9 +93,9 @@
 		line-height: 27px;
 		color: #AD1818;
 
-		@media (max-width: 959px) {
-			font-size: calcSize(16, 20, 375, 960);
-			line-height: calcSize(22, 27, 375, 960);
+		@media (max-width: 767px) {
+			font-size: 16px;
+			line-height: 22px;
 		}
 	}
 }

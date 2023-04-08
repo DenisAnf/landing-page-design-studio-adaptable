@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Manrope:regular,700);
 body {
   width: 100%;
   color: #121212;
@@ -17,7 +18,7 @@ body {
 }
 @media (max-width: 767px) {
   .container {
-    padding: 0 calc(0.012755102 * 100vw + 7.2168367347px) 0 calc(0.0051020408 * 100vw + 11.0867346939px);
+    padding: 0 12px 0 13px;
   }
 }
 
@@ -51,14 +52,14 @@ p {
 }
 @media (max-width: 1199px) {
   .title {
-    padding-top: calc(0.125 * 100vw + 0px);
+    padding-top: 120px;
   }
 }
-@media (max-width: 959px) {
+@media (max-width: 767px) {
   .title {
-    margin-bottom: calc(0.0170940171 * 100vw + 13.5897435897px);
-    padding-top: calc(0.0683760684 * 100vw + 54.358974359px);
-    font-size: calc(0.0068376068 * 100vw + 11.4358974359px);
-    line-height: calc(0.0102564103 * 100vw + 15.1538461538px);
+    margin-bottom: 20px;
+    padding-top: 80px;
+    font-size: 14px;
+    line-height: 19px;
   }
 }

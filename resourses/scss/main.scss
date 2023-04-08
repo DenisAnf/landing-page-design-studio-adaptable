@@ -1,16 +1,10 @@
-@function calcSize($f-min, $f-max, $w-min, $w-max) {
-	$k: ($f-max - $f-min)/($w-max - $w-min);
-	$b: $f-min - $k * $w-min;
-
-	$b: $b * 1px;
-
-	@return calc(#{$k} * 100vw + #{$b});
-}
+@import url(https://fonts.googleapis.com/css?family=Manrope:regular,700);
 
 body {
 	width: 100%;
 	color: #121212;
 	background-color: #FFFFFF;
+	font-family: "Manrope", sans-serif;
 }
 
 .container {
@@ -23,7 +17,7 @@ body {
 	}
 
 	@media (max-width: 767px) {
-		padding: 0 calcSize(12, 17, 375, 767) 0 calcSize(13, 15, 375, 767);
+		padding: 0 12px 0 13px;
 	}
 }
 
@@ -54,14 +48,14 @@ p {
 	text-transform: uppercase;
 
 	@media (max-width: 1199px) {
-		padding-top: calcSize(120, 150, 960, 1200);
+		padding-top: 120px;
 
 	}
 
-	@media (max-width: 959px) {
-		margin-bottom: calcSize(20, 30, 375, 960);
-		padding-top: calcSize(80, 120, 375, 960);
-		font-size: calcSize(14, 18, 375, 960);
-		line-height: calcSize(19, 25, 375, 960);
+	@media (max-width: 767px) {
+		margin-bottom: 20px;
+		padding-top: 80px;
+		font-size: 14px;
+		line-height: 19px;
 	}
 }

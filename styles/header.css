@@ -19,10 +19,10 @@
     align-items: flex-start;
   }
 }
-@media (max-width: 959px) {
+@media (max-width: 767px) {
   .header__inner {
     align-items: center;
-    padding: calcSize(31, 33, 375, 959) calcSize(12, 15, 375, 959);
+    padding: 31px 12px;
   }
 }
 .header__logo {
@@ -38,7 +38,7 @@
 }
 @media (max-width: 767px) {
   .header__logo img {
-    width: calcSize(96, 128, 375, 767);
+    width: 96px;
   }
 }
 .header__hb {
@@ -68,7 +68,7 @@
     bottom: 0;
   }
 }
-@media (max-width: 959px) {
+@media (max-width: 767px) {
   .header__hb {
     width: 38px;
     height: 8px;

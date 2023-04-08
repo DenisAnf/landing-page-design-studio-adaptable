@@ -19,9 +19,9 @@
 			align-items: flex-start;
 		}
 
-		@media (max-width: 959px) {
+		@media (max-width: 767px) {
 			align-items: center;
-			padding: calcSize(31, 33, 375, 959) calcSize(12, 15, 375, 959);
+			padding: 31px 12px;
 		}
 	}
 
@@ -36,7 +36,7 @@
 			width: 128px;
 
 			@media (max-width: 767px) {
-				width: calcSize(96, 128, 375, 767);
+				width: 96px;
 			}
 		}
 	}
@@ -73,7 +73,7 @@
 			}
 		}
 
-		@media (max-width: 959px) {
+		@media (max-width: 767px) {
 			width: 38px;
 			height: 8px;
 
