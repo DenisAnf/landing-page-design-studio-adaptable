@@ -6,8 +6,8 @@
 a:focus,a:active{outline: none;}
 nav,footer,header,aside{display: block;}
 html,body{height:100%;min-width:375px;}
-body{font-family:$fontfamily;line-height: 1;font-size: 14px;-ms-text-size-adjust: 100%;-moz-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;}
-input,button,textarea{font-family:$fontfamily;}
+body{line-height: 1;font-size: 14px;-ms-text-size-adjust: 100%;-moz-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;}
+input,button,textarea{font-family:"Manrope";}
 input::-ms-clear{display: none;}
 button{cursor: pointer;}
 button::-moz-focus-inner{padding:0;border:0;}

@@ -2,16 +2,22 @@ body {
   width: 100%;
   color: #121212;
   background-color: #FFFFFF;
+  font-family: "Manrope", sans-serif;
 }
 
 .container {
-  max-width: 1180px;
-  padding: 0 15px;
+  max-width: 1150px;
+  padding: 0;
   margin: 0 auto;
+}
+@media (max-width: 1199px) {
+  .container {
+    padding: 0 17px 0 15px;
+  }
 }
 @media (max-width: 767px) {
   .container {
-    padding: 0 calc(0.0076530612 * 100vw + 9.1301020408px);
+    padding: 0 calc(0.012755102 * 100vw + 7.2168367347px) 0 calc(0.0051020408 * 100vw + 11.0867346939px);
   }
 }
 
