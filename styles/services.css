@@ -41,23 +41,7 @@
   }
 }
 .services__btn {
-  display: block;
-  width: 100%;
-  margin: auto 0;
-  background: #AD1818;
-  border-radius: 5px;
-  text-align: center;
-  font-size: 30px;
-  line-height: 153px;
-  color: #FFFFFF;
   letter-spacing: -0.032em;
-}
-@media (max-width: 767px) {
-  .services__btn {
-    border-radius: 3.8px;
-    font-size: 22px;
-    line-height: 100px;
-  }
 }
 
 .service {

@@ -25,14 +25,9 @@
   }
 }
 .about__link {
-  display: block;
   width: 255px;
-  background-color: #AD1818;
-  border-radius: 5px;
-  text-align: center;
   font-size: 20px;
-  line-height: 67px;
-  color: #FFFFFF;
+  line-height: 65px;
 }
 .about__link:visited {
   color: #FFFFFF;
@@ -40,8 +35,7 @@
 @media (max-width: 767px) {
   .about__link {
     width: 194px;
-    border-radius: 3.8px;
     font-size: 16px;
-    line-height: 51px;
+    line-height: 49px;
   }
 }

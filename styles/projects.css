@@ -1,35 +1,28 @@
-.projects__all {
-  display: block;
+.projects {
   margin-bottom: 150px;
-  width: 100%;
-  border: 1px solid #AD1818;
-  border-radius: 5px;
-  font-size: 30px;
-  line-height: 151px;
-  text-align: center;
-  color: #AD1818;
-  transition: all 200ms linear;
-}
-.projects__all:visited {
-  color: #AD1818;
-}
-.projects__all:hover {
-  background-color: #AD1818;
-  color: #FFFFFF;
-  transition: all 100ms linear;
 }
 @media (max-width: 1199px) {
-  .projects__all {
+  .projects {
     margin-bottom: 103px;
   }
 }
 @media (max-width: 767px) {
-  .projects__all {
+  .projects {
     margin-bottom: 80px;
-    border-radius: 3.8px;
-    font-size: 22px;
-    line-height: 98px;
   }
+}
+.projects__link {
+  background: #FFFFFF;
+  color: #AD1818;
+  transition: all 200ms linear;
+}
+.projects__link:visited {
+  color: #AD1818;
+}
+.projects__link:hover {
+  background-color: #AD1818;
+  color: #FFFFFF;
+  transition: all 100ms linear;
 }
 
 .project {

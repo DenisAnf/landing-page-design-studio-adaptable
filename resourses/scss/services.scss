@@ -38,24 +38,7 @@
 	}
 
 	&__btn {
-		display: block;
-		width: 100%;
-		margin: auto 0;
-		background: #AD1818;
-		border-radius: 5px;
-		text-align: center;
-		font-size: 30px;
-		line-height: 153px;
-		color: #FFFFFF;
 		letter-spacing: -0.032em; //pp
-
-		@media (max-width: 1199px) {}
-
-		@media (max-width: 767px) {
-			border-radius: 3.8px;
-			font-size: 22px;
-			line-height: 100px;
-		}
 	}
 }
 

@@ -1,18 +1,20 @@
 .projects {
+	margin-bottom: 150px;
 
+	@media (max-width: 1199px) {
+		margin-bottom: 103px;
+	}
+
+	@media (max-width: 767px) {
+		margin-bottom: 80px;
+	}
+	
 	&__title {}
 
 	&__card {}
 
-	&__all {
-		display: block;
-		margin-bottom: 150px;
-		width: 100%;
-		border: 1px solid #AD1818;
-		border-radius: 5px;
-		font-size: 30px;
-		line-height: 151px;
-		text-align: center;
+	&__link {
+		background: #FFFFFF;
 		color: #AD1818;
 		transition: all 200ms linear;
 
@@ -24,17 +26,6 @@
 			background-color: #AD1818;
 			color: #FFFFFF;
 			transition: all 100ms linear;
-		}
-
-		@media (max-width: 1199px) {
-			margin-bottom: 103px;
-		}
-
-		@media (max-width: 767px) {
-			margin-bottom: 80px;
-			border-radius: 3.8px;
-			font-size: 22px;
-			line-height: 98px;
 		}
 	}
 }
