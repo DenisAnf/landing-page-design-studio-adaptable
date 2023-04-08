@@ -68,7 +68,12 @@
 .service {
   flex: 0 1 calc(50% - 5.5px);
 }
-@media (max-width: 1000px) {
+@media (max-width: 1199px) {
+  .service {
+    flex: 0 1 calc(50% - 5px);
+  }
+}
+@media (max-width: 767px) {
   .service {
     flex: 0 1 100%;
   }
