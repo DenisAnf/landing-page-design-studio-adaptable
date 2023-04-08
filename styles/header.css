@@ -10,25 +10,26 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1180px;
+  max-width: 1150px;
   margin: 0 auto;
-  padding: 33px 15px;
+  padding: 33px 0;
 }
 @media (max-width: 1199px) {
   .header__inner {
+    padding: 33px 17px 33px 15px;
     align-items: flex-start;
   }
 }
 @media (max-width: 767px) {
   .header__inner {
     align-items: center;
-    padding: 31px 12px;
+    padding: 31px 12px 31px 13px;
   }
 }
 .header__logo {
   transform: translate(-1px, -2.8px);
 }
-@media (max-width: 767px) {
+@media (max-width: 1199px) {
   .header__logo {
     transform: translate(0, 0);
   }

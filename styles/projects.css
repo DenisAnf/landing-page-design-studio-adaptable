@@ -25,7 +25,7 @@
 }
 @media (max-width: 767px) {
   .projects__all {
-    margin-bottom: 144px;
+    margin-bottom: 80px;
     border-radius: 3.8px;
     font-size: 22px;
     line-height: 98px;
@@ -52,7 +52,7 @@
 }
 @media (max-width: 767px) {
   .project:last-child {
-    margin-bottom: 60px;
+    margin-bottom: 59px;
   }
 }
 .project__image {

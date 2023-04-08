@@ -23,8 +23,6 @@
 	&__card {
 		display: flex;
 		flex-wrap: wrap;
-		//display: grid;
-		//grid-template: repeat(2, 1fr) / repeat(2, 1fr);
 		gap: 85px 11px; //pp !44
 		margin-bottom: 106px;
 
@@ -34,13 +32,8 @@
 		}
 
 		@media (max-width: 767px) {
-			gap: 65px 10px; //pp 60
-			margin-bottom: 68px; //pp 80
-		}
-
-		@media (max-width: 767px) {
-			//grid-template: repeat(4, 1fr) / repeat(1, 1fr);
-			gap: 65px 0; //pp 60
+			gap: 59px 0; //pp 60
+			margin-bottom: 57px; //pp 60
 		}
 	}
 
@@ -122,6 +115,7 @@
 
 		@media (max-width: 767px) {
 			top: 24px;
+			left: 24px;
 			padding: 0 24px;
 			border-radius: 3.8px;
 			font-size: 14px;

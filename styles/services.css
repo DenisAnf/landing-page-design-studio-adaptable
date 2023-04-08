@@ -36,13 +36,8 @@
 }
 @media (max-width: 767px) {
   .services__card {
-    gap: 65px 10px;
-    margin-bottom: 68px;
-  }
-}
-@media (max-width: 767px) {
-  .services__card {
-    gap: 65px 0;
+    gap: 59px 0;
+    margin-bottom: 57px;
   }
 }
 .services__btn {
@@ -127,6 +122,7 @@
 @media (max-width: 767px) {
   .service__price {
     top: 24px;
+    left: 24px;
     padding: 0 24px;
     border-radius: 3.8px;
     font-size: 14px;
