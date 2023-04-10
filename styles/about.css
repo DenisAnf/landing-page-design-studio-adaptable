@@ -2,7 +2,7 @@
   margin-top: 5px;
   margin-bottom: 30px;
   margin-left: 2.8px;
-  width: 1048px;
+  max-width: 1048px;
   font-size: 45px;
   line-height: 61px;
 }
@@ -12,14 +12,14 @@
 @media (max-width: 1199px) {
   .about__info {
     margin-left: 0px;
-    width: 690px;
+    max-width: 690px;
     font-size: 35px;
     line-height: 48px;
   }
 }
 @media (max-width: 767px) {
   .about__info {
-    width: 345px;
+    max-width: 345px;
     font-size: 22px;
     line-height: 30px;
   }

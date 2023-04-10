@@ -47,8 +47,8 @@
 		</div>
 	</header>
 	<main class="page">
-		<div class="container">
-			<section class="intro">
+		<section class="intro">
+			<div class="container">
 				<h1 class="intro__title">
 					Современные и стильные интерьеры для комфортной жизни
 				</h1>
@@ -67,8 +67,10 @@
 						Мы - команда квалифицированных дизайнеров и архитекторов, занимающихся разработкой и реализацией дизайн-проектов
 					</div>
 				</div>
-			</section>
-			<section class="about" id="about">
+			</div>
+		</section>
+		<section class="about" id="about">
+			<div class="container">
 				<h2 class="about__title title">
 					О нас
 				</h2>
@@ -78,8 +80,10 @@
 					— нацелены на результат.
 				</div>
 				<a class="about__link btn" href="#services">Посмотреть услуги</a>
-			</section>
-			<section class="projects" id="projects">
+			</div>
+		</section>
+		<section class="projects" id="projects">
+			<div class="container">
 				<h2 class="projects__title title">
 					Проекты
 				</h2>
@@ -161,8 +165,8 @@
 				<a class="projects__link btn" href="">
 					Смотреть все проекты
 				</a>
-			</section> 
-		</div>
+			</div>
+		</section> 
 		<section class="services" id="services">
 			<div class="container">
 				<h2 class="services__title title">
@@ -243,28 +247,84 @@
 				</ul>
 			</div>
 		</section>
-		<!--<section class="gallery">
-			<div class="gallery__image">
-				<img srcset="resourses/img/projects/forest-landscape.jpg, resourses/img/projects/forest-landscape@2x.jpg 2x" src="resourses/img/projects/forest-landscape.jpg" alt="Шикарный реализованный дизайн-проект спальни с рабочим местом в двухкомнтаной квартире в ЖК Лесной Пейзаж">
-				<p class="gallery__title">Галерея проектов</p>
-				<p class="gallery__info"> Проект <span>Двухкомнатной</span> квартиры в ЖК Лесной Пейзаж </p>
+		<section class="gallery-section">
+			<div class="gallery">
+				<div class="gallery__title-wrapper">
+					<div class="container">
+						<p class="gallery__title">Галерея проектов</p>
+					</div>
+				</div>
+				<div class="gallery__controls-wrapper">
+					<div class="container">
+						<div class="gallery__controls">
+							<button class="gallery__control-prev"></button>
+							<button class="gallery__control-next"></button>
+						</div>
+					</div>
+				</div>
+				<div class="gallery__slides">
+					<div class="gallery__slide gallery__slide-active">
+						<img class="slide__image"
+							srcset="resourses/img/gallery/forest-landscape.jpg, resourses/img/gallery/forest-landscape@2x.jpg 2x"
+							src="resourses/img/gallery/forest-landscape.jpg"
+							alt="Шикарный реализованный дизайн-проект спальни с рабочим местом в двухкомнтаной квартире в ЖК Лесной Пейзаж">
+						<div class="slide__title-wrapper">
+							<div class="container">
+								<p class="slide__title">Проект <span>Двухкомнатной</span> квартиры в ЖК Лесной Пейзаж</p>
+							</div>
+						</div>
+					</div>
+					<div class="gallery__slide">
+						<img class="slide__image"
+							srcset="resourses/img/gallery/lighthouse.jpg, resourses/img/gallery/lighthouse@2x.jpg 2x"
+							src="resourses/img/gallery/lighthouse.jpg"
+							alt="Шикарный реализованный дизайн-проект спальни с рабочим местом в двухкомнтаной квартире в ЖК Лесной Пейзаж">
+						<div class="slide__title-wrapper">
+							<div class="container">
+								<p class="slide__title">Проект гостиной в ЖК Маяк <br><br></p>
+							</div>
+						</div>
+					</div>
+					<div class="gallery__slide">
+						<img class="slide__image"
+							srcset="resourses/img/gallery/private-house.jpg, resourses/img/gallery/private-house@2x.jpg 2x"
+							src="resourses/img/gallery/private-house.jpg"
+							alt="Шикарный реализованный дизайн-проект спальни с рабочим местом в двухкомнтаной квартире в ЖК Лесной Пейзаж">
+						<div class="slide__title-wrapper">
+							<div class="container">
+								<p class="slide__title">Визуализация кухни-гостиной в частном доме</p>
+							</div>
+						</div>
+					</div>
+					<div class="gallery__slide">
+						<img class="slide__image"
+							srcset="resourses/img/gallery/north-wind.jpg, resourses/img/gallery/north-wind@2x.jpg 2x"
+							src="resourses/img/gallery/north-wind.jpg"
+							alt="Шикарный реализованный д	изайн-проект спальни с рабочим местом в двухкомнтаной квартире в ЖК Лесной Пейзаж">
+						<div class="slide__title-wrapper">
+							<div class="container">
+								<p class="slide__title">Проект кухни в скандинавском стиле для ЖК Северный Ветер</p>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</section>
-			<section class="contacts" id="contacts">
-				<div class="container">
-						<div class="contacts__title title">
-							Контакты
+		<!--<section class="contacts" id="contacts">
+			<div class="container">
+					<div class="contacts__title title">
+						Контакты
+					</div>
+					<div class="contact">
+						<div class="contact__number">
+							<a href="tel:+79358954535">+7 935 <span>895-45-35</span></a>
 						</div>
-						<div class="contact">
-							<div class="contact__number">
-								<a href="tel:+79358954535">+7 935 <span>895-45-35</span></a>
-							</div>
-							<div class="contact__mail">
-								<a href="mailto:hello@mail.com">hello@mail.com</a>
-							</div>
+						<div class="contact__mail">
+							<a href="mailto:hello@mail.com">hello@mail.com</a>
 						</div>
-				</div>
-			</section> -->
+					</div>
+			</div>
+		</section> -->
 	</main>
 	<!--<footer class="footer">
 			<nav class="footer__menu menu-f">
@@ -279,5 +339,6 @@
 			студия дизайна интерьера Метрика — 2023
 		</div>
 	</footer> -->
+	<script src="gallery.js"></script>
 </body>
 </html>
