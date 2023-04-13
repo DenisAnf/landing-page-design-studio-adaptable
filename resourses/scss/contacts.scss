@@ -1,24 +1,54 @@
 .contacts {
 	margin-bottom: 140px;
 
+	@media (max-width: 1199px) {
+		margin-bottom: 78px; // pp 120
+	}
+
+	@media (max-width: 767px) {
+		margin-bottom: 80px;
+	}
+
 	&__title {
 		margin-bottom: 74px;
 		padding-top: 0;
+
+		@media (max-width: 767px) {
+			margin-bottom: 58px;
+		}
 	}
 }
 
-.contact {
+.contact { 
 	display: flex;
-	gap: 20px 105.5px;
+	flex-wrap: wrap;
+	gap: 58px 105.5px;
+
+	@media (max-width: 1199px) {
+		gap: 58px 115.5px;
+	}
 
 	&__number {
 		position: relative;
 		font-size: 60px;
 		line-height: 60px;
 
+		@media (max-width: 1199px) {
+			font-size: 45px;
+		}
+	
+		@media (max-width: 767px) {
+			font-size: 35px;
+			line-height: 46px;
+		}
+
 		& span {
 			padding-left: 10px;
 			letter-spacing: -0.025em;
+
+			@media (max-width: 767px) {
+				padding-left: 5px;
+			}
 		}
 
 		&::before {
@@ -30,6 +60,18 @@
 			width: 24px;
 			height: 24px;
 			background: url('../resourses/img/icon/phone.svg') center center/auto 22px no-repeat;
+
+			@media (max-width: 1199px) {
+				bottom: 88px;
+			}
+			
+			@media (max-width: 767px) {
+				bottom: 66px;
+				left: -4px;
+				width: 18px;
+				height: 18px;
+				background-size: auto 16.5px;
+			}
 		}
 	}
 
@@ -39,12 +81,31 @@
 		font-size: 60px;
 		line-height: 60px;
 
+		@media (max-width: 1199px) {
+			font-size: 45px;
+		}
+	
+		@media (max-width: 767px) {
+			transform: translateY(0); //pp
+			font-size: 35px;
+			line-height: 46px;
+		}
+
 		& a {
 			display: inline-block;
 			padding-bottom: 8px;
 			border-bottom: 2px solid #121212;
 			color: inherit;
 			opacity: 0.5;
+
+			@media (max-width: 1199px) {
+				padding-bottom: 0;
+			}
+
+			@media (max-width: 767px) {
+				border-bottom: none;
+				opacity: 1;
+			}
 		}
 
 		&::before {
@@ -56,6 +117,18 @@
 			width: 24px;
 			height: 24px;
 			background: url('../resourses/img/icon/mail.svg') center center/auto 16px no-repeat;
+
+			@media (max-width: 1199px) {
+				bottom: 77px;
+			}
+			
+			@media (max-width: 767px) {
+				bottom: 66px;
+				left: -1px;
+				width: 18px;
+				height: 18px;
+				background-size: auto 12px;
+			}
 		}
 	}
 }
