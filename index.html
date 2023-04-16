@@ -210,9 +210,22 @@
 						<p class="service__info">Комплектация</p>
 					</li>
 				</ul>
-				<button type="button" class="services__btn btn">Заказать услугу</button>
+				<button type="button" class="js-btn services__btn btn">Заказать услугу</button>
 			</div>
 		</section>
+		<div class="js-popup popup">
+			<div class="js-popup__content popup__content">
+				<button class="js-popup__close-btn popup__close-btn"></button>
+				<div class="popup__title">Заказать услугу</div>
+				<div class="popup__subtitle">Заполните форму, мы свяжемся с вами в течение суток</div>
+				<form action="" method="get" class="order" enctype="text/plain">
+					<input type="text" name="name" placeholder="Имя" class="input order__input">
+					<input type="email" name="email" placeholder="Электронная почта" class="input order__input">
+					<input type="tel" name="phone" placeholder="Номер телефона" class="input order__input">
+					<button type="submit" class="order__btn btn">Отправить</button>
+				</form>
+			</div>
+		</div>
 		<section class="reviews" id="reviews">
 			<div class="container">
 				<h2 class="reviews__title title">
@@ -337,6 +350,8 @@
 			студия дизайна интерьера Метрика — 2023
 		</div>
 	</footer>
-	<script src="gallery.js"></script>
+	
+	<script src="js/gallery.js"></script>
+	<script src="js/popup.js"></script>
 </body>
 </html>
