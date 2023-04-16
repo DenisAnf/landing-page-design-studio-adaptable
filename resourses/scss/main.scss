@@ -7,6 +7,12 @@ body {
 	font-family: "Manrope", sans-serif;
 }
 
+.body {
+	&__fixed {
+		overflow: hidden;
+	}
+}
+
 .container {
 	max-width: 1150px;
 	padding: 0;

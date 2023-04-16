@@ -6,6 +6,10 @@ body {
   font-family: "Manrope", sans-serif;
 }
 
+.body__fixed {
+  overflow: hidden;
+}
+
 .container {
   max-width: 1150px;
   padding: 0;
