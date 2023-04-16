@@ -215,15 +215,15 @@
 		</section>
 		<div class="js-popup popup">
 			<div class="js-popup__content popup__content">
-				<button class="js-popup__close-btn popup__close-btn"></button>
-				<div class="popup__title">Заказать услугу</div>
-				<div class="popup__subtitle">Заполните форму, мы свяжемся с вами в течение суток</div>
-				<form action="" method="get" class="order" enctype="text/plain">
+				<button type="button" class="js-popup__close-btn popup__close-btn"></button>
+				<div class="order__title">Заказать услугу</div>
+				<div class="order__subtitle">Заполните форму, мы свяжемся с вами в течение суток</div>
+				<form action="" method="get" class="order__form" enctype="text/plain">
 					<input type="text" name="name" placeholder="Имя" class="input order__input">
 					<input type="email" name="email" placeholder="Электронная почта" class="input order__input">
 					<input type="tel" name="phone" placeholder="Номер телефона" class="input order__input">
-					<button type="submit" class="order__btn btn">Отправить</button>
 				</form>
+				<button type="submit" class="order__btn btn">Отправить</button>
 			</div>
 		</div>
 		<section class="reviews" id="reviews">

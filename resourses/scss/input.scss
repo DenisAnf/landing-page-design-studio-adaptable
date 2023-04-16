@@ -1,0 +1,22 @@
+.input {
+	display: block;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #000000;
+	font-size: 25px;
+	line-height: 34px;
+
+	@media (max-width: 767px) {
+		font-size: 18px;
+		line-height: 25px;
+	}
+
+	& input::placeholder {
+		font-size: 25px;
+		line-height: 34px;
+
+		@media (max-width: 767px) {
+			font-size: 18px;
+			line-height: 25px;
+		}
+	}
+}
