@@ -12,7 +12,6 @@
   justify-content: center;
   align-items: center;
   background-color: rgba(0, 0, 0, 0.7);
-  transform: scale(0);
   transition: all 200ms ease;
 }
 .popup__content {
@@ -23,6 +22,8 @@
   background: #FFFFFF;
   border-radius: 10px;
   padding: 94px 79px 86px 55px;
+  transform: scale(0);
+  transition: all 200ms ease;
 }
 @media (max-width: 767px) {
   .popup__content {
@@ -56,6 +57,8 @@
 .popup__open {
   opacity: 1;
   visibility: visible;
+}
+.popup__open .popup__content {
   transform: scale(1);
   transition: all 300ms ease-in-out;
 }
